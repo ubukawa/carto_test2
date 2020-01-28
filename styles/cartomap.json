@@ -1,0 +1,85 @@
+{
+  "version": 8,
+  "name": "Carto Map Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "carto_map": {
+      "type": "vector",
+      "url": "mbtiles://{carto}"
+    }
+  },
+  "sprite": "sprite",
+  "glyphs": "{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Background",
+      "type": "background",
+      "maxzoom": 5,
+      "paint": {"background-color": "rgba(168, 236, 209, 1)"}
+    },
+    {
+      "id": "bnda",
+      "type": "fill",
+      "source": "carto_map",
+      "source-layer": "bnda",
+      "minzoom": 0,
+      "maxzoom": 3,
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(244, 255, 132, 1)"}
+    },
+    {
+      "id": "bndl-Armistic or international administrative boundary",
+      "type": "line",
+      "source": "carto_map",
+      "source-layer": "bndl",
+      "maxzoom": 3,
+      "filter": [
+        "all",
+        ["==", "Bdytyp", "Armistice or International administrative line"]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-width": 1, "line-color": "rgba(247, 14, 55, 1)"}
+    },
+    {
+      "id": "bndl-other",
+      "type": "line",
+      "source": "carto_map",
+      "source-layer": "bndl",
+      "maxzoom": 3,
+      "filter": ["all", ["==", "Bdytyp", "Other line of separation"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-width": 1, "line-color": "rgba(209, 70, 224, 1)"}
+    },
+    {
+      "id": "bndl-special boundary",
+      "type": "line",
+      "source": "carto_map",
+      "source-layer": "bndl",
+      "maxzoom": 3,
+      "filter": ["all", ["==", "Bdytyp", "Special boundary line"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-width": 1, "line-color": "rgba(0, 249, 36, 1)"}
+    },
+    {
+      "id": "bndl-coastline",
+      "type": "line",
+      "source": "carto_map",
+      "source-layer": "bndl",
+      "maxzoom": 3,
+      "filter": ["all", ["==", "Bdytyp", "Coastline"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-width": 1, "line-color": "rgba(40, 99, 220, 1)"}
+    },
+    {
+      "id": "bndl-internatinal boundary",
+      "type": "line",
+      "source": "carto_map",
+      "source-layer": "bndl",
+      "maxzoom": 3,
+      "filter": ["all", ["==", "Bdytyp", "International boundary"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(0, 0, 0, 1)"}
+    }
+  ],
+  "id": "ftuf1lh3f"
+}

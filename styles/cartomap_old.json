@@ -1,0 +1,10 @@
+{
+  "version": 8,
+  "name": "Carto Map Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {},
+  "sprite": "sprite",
+  "glyphs": "{fontstack}/{range}.pbf",
+  "layers": [],
+  "id": "ftuf1lh3f"
+}

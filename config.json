@@ -1,0 +1,21 @@
+{
+"options": {
+"paths": {
+"root": "",
+"fonts": "fonts",
+"sprites": "sprites",
+"styles": "styles",
+"mbtiles": "data"
+}
+},
+"styles": {
+"cartomap": {
+"style": "cartomap.json"
+}
+},
+"data": {
+"carto": {
+"mbtiles": "carto.mbtiles"
+}
+}
+}

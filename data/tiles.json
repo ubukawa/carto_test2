@@ -1,0 +1,26 @@
+{
+  "tilejson": "2.2.0",
+  "tiles": ["https://ubukawa.github.io/carto_test2/data/jpn_zm5/{z}/{x}/{y}.pbf"],
+  "name": "Japan_tiled",
+  "attribution": "test test test",
+  "maxzoom": 5,
+  "minzoom": 0,
+  "bounds": [122.941258,20.424983,153.986674,45.554623],
+  "center": [140.625000,36.466030],
+  "vector_layers": [{
+    "id": "prefecture",
+    "description": "prefecture",
+    "maxzoom": 5,
+    "minzoom": 0
+  },{
+    "id": "municipality",
+    "description": "municipality",
+    "maxzoom": 5,
+    "minzoom": 0
+  },{
+    "id": "municipality_name",
+    "description": "municipality_name",
+    "maxzoom": 5,
+    "minzoom": 0
+  }]
+}

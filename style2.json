@@ -14,8 +14,8 @@
 "glyphs": "https://cyberjapandata.gsi.go.jp/xyz/noto-jp/{fontstack}/{range}.pbf",
 "layers": [
     {
-      "id": "municipality",
-      "source": "municipality",
+      "id": "poly1",
+      "source": "jpn_zm5",
       "source-layer": "municipality",
       "type": "fill",
       "paint": {
@@ -26,8 +26,8 @@
       }
     },
     {
-      "id": "prefecture",
-      "source": "municipality",
+      "id": "poly2",
+      "source": "jpn_zm5",
       "source-layer": "prefecture",
       "type": "fill",
       "paint": {

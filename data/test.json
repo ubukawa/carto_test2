@@ -18,8 +18,8 @@
     "maxzoom": 10,
     "minzoom": 0
   },{
-    "id": "symbol",
-    "description": "test",
+    "id": "test_sym",
+    "description": "symbol",
     "maxzoom": 10,
     "minzoom": 0
   }]

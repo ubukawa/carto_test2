@@ -1,0 +1,55 @@
+{"version": 8,"name": "Vector","metadata": {},
+"sources": {
+    "vector": {
+      "type": "vector",
+      "tiles": [
+        "https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf"
+      ], 
+      "maxzoom": 16, 
+      "minzoom": 4, 
+      "attribution": "<a href='https://github.com/gsi-cyberjapan/gsimaps-vector-experiment' target='_blank'>地理院地図Vector（仮称）提供実験</a>"
+    }
+}, 
+"sprite": "https://cyberjapandata.gsi.go.jp/vector/sprite/std",
+"glyphs": "https://cyberjapandata.gsi.go.jp/xyz/noto-jp/{fontstack}/{range}.pbf",
+"layers": [
+    {
+      "id": "polygon1",
+      "source": "vector",
+      "source-layer": "waterarea",
+      "type": "fill",
+      "paint": {
+        "fill-color": "rgba(200,200,255,1)"
+      },
+      "layout":{
+        "visibility":"visible"
+      }
+    },
+    {
+      "id": "line1",
+      "source": "vector",
+      "source-layer": "road",
+      "type": "line",
+      "paint": {
+        "line-color": "rgba(0,0,255,1)",
+        "line-width": 2
+      },
+      "layout":{
+        "visibility":"visible"
+      }
+    },
+    {
+      "id": "point1",
+      "source": "vector",
+      "source-layer": "symbol",
+      "type": "circle",
+      "paint": {
+        "circle-color": "rgba(255,0,0,1)",
+        "circle-radius": 5
+      },
+      "layout":{
+        "visibility":"visible"
+      }
+    }
+],
+"id": "vector-sample"}

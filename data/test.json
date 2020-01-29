@@ -19,7 +19,7 @@
     "minzoom": 0
   },{
     "id": "symbol",
-    "description": "test",
+    "description": "symbol",
     "maxzoom": 10,
     "minzoom": 0
   }]

@@ -5,8 +5,8 @@
       "tiles": [
         "https://ubukawa.github.io/carto_test2/data/jpn_zm5/{z}/{x}/{y}.pbf"
       ], 
-      "maxzoom": 5, 
-      "minzoom": 0, 
+      "maxzoom": 16, 
+      "minzoom": 4, 
       "attribution": "test"
     }
 }, 

@@ -8,18 +8,18 @@
   "bounds": [122.941258,20.424983,153.986674,45.554623],
   "center": [140.625000,36.466030],
   "vector_layers": [{
-    "id": "1",
+    "id": "waterarea",
     "description": "waterarea",
     "maxzoom": 6,
     "minzoom": 4
   },{
-    "id": "municipality",
+    "id": "road",
     "description": "road",
     "maxzoom": 6,
     "minzoom": 4
   },{
     "id": "symbol",
-    "description": "municipality_name",
+    "description": "test",
     "maxzoom": 6,
     "minzoom": 4
   }]

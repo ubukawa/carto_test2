@@ -14,7 +14,19 @@
 "glyphs": "https://cyberjapandata.gsi.go.jp/xyz/noto-jp/{fontstack}/{range}.pbf",
 "layers": [
     {
-      "id": "polygon1",
+      "id": "municipality",
+      "source": "municipality",
+      "source-layer": "municipality",
+      "type": "fill",
+      "paint": {
+        "fill-color": "rgba(200,200,255,1)"
+      },
+      "layout":{
+        "visibility":"visible"
+      }
+    },
+    {
+      "id": "polygon2",
       "source": "jpn_am5",
       "source-layer": "prefecture",
       "type": "fill",

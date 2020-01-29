@@ -7,7 +7,7 @@
       ], 
       "maxzoom": 5, 
       "minzoom": 0, 
-      "attribution": "<a href='https://ubukawa.github.io/carto_test2/index.html' target='_blank'>Test</a>"
+      "attribution": "test"
     }
 }, 
 "sprite": "https://cyberjapandata.gsi.go.jp/vector/sprite/std",
@@ -15,7 +15,7 @@
 "layers": [
     {
       "id": "municipality",
-      "source": "jpn_zm5",
+      "source": "municipality",
       "source-layer": "municipality",
       "type": "fill",
       "paint": {
@@ -27,7 +27,7 @@
     },
     {
       "id": "prefecture",
-      "source": "jpn_zm5",
+      "source": "municipality",
       "source-layer": "prefecture",
       "type": "fill",
       "paint": {

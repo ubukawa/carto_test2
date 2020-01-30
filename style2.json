@@ -1,7 +1,7 @@
 {"version": 8,"name": "Vector","metadata": {},
 "sources": {
-    "vector": {
-      "type": "jpn_zm5",
+    "jpn_zm5": {
+      "type": "vector",
       "tiles": [
         "https://ubukawa.github.io/carto_test2/data/jpn_zm5/{z}/{x}/{y}.pbf"
       ], 

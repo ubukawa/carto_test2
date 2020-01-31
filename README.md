@@ -9,3 +9,7 @@ https://ubukawa.github.io/carto_test2/data/jpn_zm5
 
 tile information (json):
 https://ubukawa.github.io/carto_test2/data/tiles.json
+
+Learning Mapbox GL LJ
+https://docs.mapbox.com/mapbox-gl-js/example/simple-map/
+

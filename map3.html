@@ -26,27 +26,27 @@ Hello, hello, how are you?<br>
 
 <script>
 var map = new mapboxgl.Map({
-  container: 'map', // HTML body内のcontainer id
-  hash: true, //URLに表示状態（ズームレベル、経緯度、回転・傾きなど）を追加
-  style: './style2.json', // スタイル設定ファイルの場所（URLまたは相対パスで指定）
-  center: [140.853224,35.702352], // center [lng, lat]
-  zoom: 3, // zoom level at loading
-  maxZoom: 0, // min zoom
-  maxZoom: 5 // max zoom
+  container: 'map', 
+  hash: true, 
+  style: './style2.json',
+  center: [140.853224,35.702352], 
+  zoom: 3, 
+  maxZoom: 0, 
+  maxZoom: 5 
 });
 
 
 //UI
-//ズームレベルのプラスマイナス・傾きの調整等の設定ボタンを追加
+
 map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
-//スケールバーを追加
+
 map.addControl(new mapboxgl.ScaleControl() );
 
 
 //debug
-//タイル境界・タイルサイズを表示（trueで表示）
+
 map.showTileBoundaries = true;
-//文字の衝突範囲をを表示（trueで表示）
+
 map.showCollisionBoxes = false;
 
 </script>

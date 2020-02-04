@@ -5,7 +5,7 @@
       "tiles": [
         "https://ubukawa.github.io/carto_test2/NE_data/bnda110/{z}/{x}/{y}.pbf"
       ], 
-      "maxzoom": 5, 
+      "maxzoom": 1, 
       "minzoom": 0, 
       "attribution": "test"
     }

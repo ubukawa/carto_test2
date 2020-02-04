@@ -16,7 +16,7 @@
     {
       "id": "bnda",
       "source": "bnda110",
-      "source-layer": "municipality",
+      "source-layer": "bnda",
       "type": "fill",
       "paint": {
         "fill-color": "rgba(200,200,255,1)"

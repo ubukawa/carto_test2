@@ -1,11 +1,11 @@
 {"version": 8,"name": "Vector","metadata": {},
 "sources": {
-    "dirty": {
+    "bnda50": {
       "type": "vector",
       "tiles": [
-        "https://ubukawa.github.io/carto_test2/NE_data/dirty/{z}/{x}/{y}.pbf"
+        "https://ubukawa.github.io/carto_test2/NE_data/bnda50/{z}/{x}/{y}.pbf"
       ], 
-      "maxzoom": 5, 
+      "maxzoom": 1, 
       "minzoom": 0, 
       "attribution": "test"
     }
@@ -15,7 +15,7 @@
 "layers": [
     {
       "id": "bnda",
-      "source": "dirty",
+      "source": "bnda50",
       "source-layer": "bnda",
       "type": "fill",
       "paint": {
